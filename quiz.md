@@ -83,9 +83,15 @@ Existing applications can be integrated easily into the service-oriented archite
 
 9. List and discuss the distinct roles in Web Services Architecture.
 
+Provider - The provider creates the web service and makes it available to client applications who want to use it.
+
+Requestor - A requestor is nothing but the client application that needs to contact a web service. The client application can be a .Net, Java, or any other language-based application which looks for some sort of functionality via a web service.
+
+Broker - The broker is nothing but the application which provides access to the UDDI. 
+
 Publish - A provider informs the broker (service registry) about the existence of the web service by using the broker's publish interface to make the service accessible to clients.
 
-Find - The requestor consults the broker to locate a published web service
+Find - The requestor consults the broker to locate a published web service.
 
 Bind - With the information it gained from the broker (service registry) about the web service, the requestor is able to bind, or invoke, the web service.
 
@@ -94,24 +100,22 @@ Bind - With the information it gained from the broker (service registry) about t
 The basic web services platform is XML + HTTP. All the standard web services work using the following components −
 
 SOAP (Simple Object Access Protocol)
-UDDI (Universal Description, Discovery and Integration)
-WSDL (Web Services Description Language)
-SOAP (Simple Object Access Protocol):
-SOAP stands for Simple Object Access Protocol.
-SOAP is a XML-based protocol for accessing web services.
-SOAP is a W3C recommendation for communication between applications.
-SOAP is XML based, so it is platform independent and language independent.
-It can be used with Java, .Net or PHP language on any platform.
-
+    UDDI (Universal Description, Discovery and Integration)
+    WSDL (Web Services Description Language)
+    SOAP (Simple Object Access Protocol):
+    SOAP stands for Simple Object Access Protocol.
+    SOAP is a XML-based protocol for accessing web services.
+    SOAP is a W3C recommendation for communication between applications.
+    SOAP is XML based, so it is platform independent and language independent.
+    It can be used with Java, .Net or PHP language on any platform.
 UDDI :
-UDDI stands for Universal Description, Discovery and Integration
-UDDI is an XML based standard for describing, publishing and finding webservices.
-It can communicate via SOAP.
-It uses WSDL to describe interfaces to webservices.
-
+    UDDI stands for Universal Description, Discovery and Integration
+    UDDI is an XML based standard for describing, publishing and finding webservices.
+    It can communicate via SOAP.
+    It uses WSDL to describe interfaces to webservices.
 WSDL :
-WSDL stands for Web Services Description Language.
-WSDL is an XML based language for describing webservices and how to access them.
-It is XML based protocol for information exchange in decentralized and distributed environments.
-It is an integral part of UDDI, an XML based worldwide business registry.
-It allows people and other companies to access the service.
+    WSDL stands for Web Services Description Language.
+    WSDL is an XML based language for describing webservices and how to access them.
+    It is XML based protocol for information exchange in decentralized and distributed environments.
+    It is an integral part of UDDI, an XML based worldwide business registry.
+    It allows people and other companies to access the service.
